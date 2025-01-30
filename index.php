@@ -20,7 +20,7 @@
     <li><a href="">글 제목1</a><a href="">수정</a><a href="">삭제</a></li>
   </ul>
   <p>
-    <a href="write.php">글 쓰기</a>
+    <a href="write.php">글쓰기</a>
   </p>
   <hr>
   <form action="">

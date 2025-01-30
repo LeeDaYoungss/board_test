@@ -1,6 +1,3 @@
-<?php
-  require_once('config.php');
-?>
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -17,7 +14,7 @@
     </p>
     <p>
       <label for="usermsg">메시지 : </label>
-      <textarea type="text" id="usermsg" cols="40" rows="usermsg"></textarea>
+      <textarea name="usermsg" id="usermsg" cols="30" rows="usermsg"></textarea>
     </p>
     <button>전송</button>
   </form>

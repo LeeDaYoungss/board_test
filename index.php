@@ -38,7 +38,7 @@
 
   while ($row = mysqli_fetch_object($result)) {
     // printf($row->username);
-    $list = $list."<li><a href=''>{$row->username}</a></li>";
+    $list = $list."<li><a href='view.php?idx={$row->idx}'>{$row->username}</a></li>";
   }
 ?>
 

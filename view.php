@@ -7,7 +7,7 @@
   $sql = "SELECT * FROM board WHERE idx = {$num}";
   $result = mysqli_query($mysqli, $sql);
 
-  print_r(mysqli_fetch_object($result))
+  // print_r(mysqli_fetch_object($result))
 ?>
 
 <!DOCTYPE html>
@@ -19,7 +19,7 @@
 </head>
 <body>
   <?php
-  if($row = mysqli_fetch_row($result)){
+  if($row = mysqli_fetch_object($result)){
   ?>
   <h1>글 상세</h1>
   <h2>글쓴이 : <?= $row->username; ?></h2>

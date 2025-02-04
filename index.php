@@ -62,8 +62,8 @@
     <a href="write.php">글쓰기</a>
   </p>
   <hr>
-  <form action="">
-    <input type="search">
+  <form action="search.php">
+    <input type="search" name="keyword">
     <button>검색</button>
   </form>
 </body>
